@@ -133,7 +133,7 @@ static void print_json(const sim700l_test_result_t *result)
     printf("    \"imsi\": \"%s\",\n", result->imsi);
     printf("    \"sim_number\": \"%s\",\n", result->sim_number);
     printf("    \"sim_pin_status\": \"%s\",\n", result->sim_pin_status);
-    printf("    \"network_status\": \"%s\",\n", result->network_status);
+    // printf("    \"network_status\": \"%s\",\n", result->network_status);
     printf("    \"signal_quality\": {\n");
     printf("      \"rssi\": %d,\n", result->rssi);
     printf("      \"description\": \"%s\"\n", result->rssi_description);
